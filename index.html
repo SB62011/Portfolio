@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shaurya Bhatnagar | Gameplay Programmer</title>
+    <title>Shaurya Bhatnagar | Gameplay Programmer & Technical Designer</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;700&family=Fira+Code:wght@400;500&display=swap"
       rel="stylesheet"
@@ -71,10 +71,10 @@
         >
           <a href="#home" class="hover:text-primary transition-colors">About</a>
           <a href="#projects" class="hover:text-primary transition-colors"
-            >Experience</a
+            >Work</a
           >
           <a href="#skills" class="hover:text-primary transition-colors"
-            >Engineering</a
+            >Skills</a
           >
           <a href="#contact" class="hover:text-primary transition-colors"
             >Contact</a
@@ -97,10 +97,10 @@
           </button>
           <a href="#home" class="hover:text-primary transition-colors">About</a>
           <a href="#projects" class="hover:text-primary transition-colors"
-            >Experience</a
+            >Work</a
           >
           <a href="#skills" class="hover:text-primary transition-colors"
-            >Engineering</a
+            >Skills</a
           >
           <a href="#contact" class="hover:text-primary transition-colors"
             >Contact</a
@@ -149,32 +149,41 @@
           </h2>
 
           <p class="text-gray-300 text-base sm:text-lg mb-4 leading-relaxed">
-            I specialize in building modular gameplay systems and optimizing
-            rendering pipelines in <strong>Unreal Engine 5</strong> and
-            <strong>Unity</strong>. My focus is on the intersection of code
-            architecture and design building tools that empower creative teams
-            while ensuring peak performance on mobile and console hardware.
+            I operate at the intersection of
+            <strong>Systems Engineering</strong> and
+            <strong>Game Design</strong>. Whether architecting C++ backend
+            systems or building designer-facing tools in Unreal Engine 5, my
+            goal is the same: to build performant, scalable pipelines that make
+            games fun to play and easy to develop.
           </p>
           <p class="text-gray-300 text-base sm:text-lg mb-8 leading-relaxed">
             Recently, I optimized the live title
-            <strong>Robot Race</strong> (iOS/Android), where I increased
-            performance by 52% through draw-call optimization, and shipped
-            <strong>Nonplace</strong> (Steam), a horror title featuring a
-            complex state management system built on UE5's native serialization.
+            <strong>Robot Race</strong> (iOS/Android) for a
+            <strong>52% framerate increase</strong>, and architected the
+            interaction systems for <strong>Nonplace</strong> (Steam), a
+            <strong>top-ranked</strong> horror title.
           </p>
 
-          <div class="flex gap-4">
+          <div class="flex flex-col sm:flex-row gap-4">
             <a
               href="#projects"
-              class="px-8 py-3 bg-primary text-white font-semibold rounded hover:bg-primary/80 transition-colors"
+              class="px-8 py-3 bg-primary text-white font-semibold rounded hover:bg-primary/80 transition-colors text-center"
               >View Projects</a
             >
             <a
-              href="Resume.pdf"
+              href="Shaurya_Bhatnagar_Game_Programmer_Resume.pdf"
               target="_blank"
-              class="px-8 py-3 border border-gray-600 text-gray-300 font-semibold rounded hover:border-primary hover:text-primary transition-colors"
-              >Download Resume</a
+              class="px-6 py-3 border border-gray-600 text-gray-300 font-semibold rounded hover:border-primary hover:text-primary transition-colors text-sm flex items-center justify-center gap-2"
             >
+              <i class="fas fa-file-code"></i> Eng. Resume
+            </a>
+            <a
+              href="Shaurya_Bhatnagar_Tech_Design_Resume.pdf"
+              target="_blank"
+              class="px-6 py-3 border border-gray-600 text-gray-300 font-semibold rounded hover:border-primary hover:text-primary transition-colors text-sm flex items-center justify-center gap-2"
+            >
+              <i class="fas fa-layer-group"></i> Design Resume
+            </a>
           </div>
         </div>
       </div>
@@ -209,11 +218,26 @@
             <div>
               <h3 class="text-2xl font-heading text-highlight">Nonplace</h3>
               <p class="text-primary text-sm font-semibold mb-1">
-                Gameplay Programmer (Unreal Engine 5)
+                Technical Designer / Programmer (UE5)
               </p>
               <p class="text-gray-500 text-xs italic mb-2">
                 Dead Petal Games | Steam &amp; Itch.io
               </p>
+
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span
+                  class="px-2 py-1 bg-blue-900/30 text-blue-200 border border-blue-800 text-xs rounded font-mono"
+                  >C++ Architecture</span
+                >
+                <span
+                  class="px-2 py-1 bg-purple-900/30 text-purple-200 border border-purple-800 text-xs rounded font-mono"
+                  >Tool Dev</span
+                >
+                <span
+                  class="px-2 py-1 bg-green-900/30 text-green-200 border border-green-800 text-xs rounded font-mono"
+                  >Optimization</span
+                >
+              </div>
 
               <div class="flex flex-wrap gap-3 mb-4 text-xs">
                 <a
@@ -221,32 +245,32 @@
                   target="_blank"
                   class="flex items-center gap-2 border border-gray-600 px-3 py-1 rounded hover:border-primary hover:text-primary transition-colors"
                 >
-                  <i class="fab fa-itch-io"></i> Vertical Slice (Itch.io)
+                  <i class="fab fa-itch-io"></i> Vertical Slice
                 </a>
                 <a
                   href="https://store.steampowered.com/app/3788330/Nonplace/"
                   target="_blank"
                   class="flex items-center gap-2 border border-gray-600 px-3 py-1 rounded hover:border-primary hover:text-primary transition-colors"
                 >
-                  <i class="fab fa-steam"></i> Play Demo (Steam)
+                  <i class="fab fa-steam"></i> Steam Demo
                 </a>
               </div>
 
               <ul class="list-disc list-inside text-gray-400 space-y-2 mb-6">
                 <li>
-                  <strong>State Management:</strong> Extended UE5's
-                  <code>USaveGame</code> architecture to track complex inventory
-                  arrays, narrative choices, and world state across sessions.
+                  <strong>Interaction System (C++):</strong> Architected a
+                  component-based system using C++ Interfaces to decouple
+                  gameplay logic from actor classes.
                 </li>
                 <li>
-                  <strong>Interaction Architecture:</strong> Decoupled gameplay
-                  logic using C++ Interfaces, enabling designers to create 30+
-                  unique interactables without programmer support.
+                  <strong>Designer Tools (BP):</strong> Exposed core systems to
+                  Blueprints, enabling designers to create 30+ unique
+                  interactables without programmer support.
                 </li>
                 <li>
-                  <strong>Dynamic Streaming:</strong> Implemented Level
-                  Streaming logic to load high-fidelity horror assets
-                  dynamically, ensuring performance on Steam Deck.
+                  <strong>Streaming & Performance:</strong> Implemented dynamic
+                  Level Streaming and baked Lightmass scenarios to maintain a
+                  locked 90 FPS on Steam Deck.
                 </li>
               </ul>
             </div>
@@ -276,6 +300,21 @@
               <p class="text-gray-500 text-xs italic mb-2">
                 Easley-Dunn Productions | iOS &amp; Android
               </p>
+
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span
+                  class="px-2 py-1 bg-green-900/30 text-green-200 border border-green-800 text-xs rounded font-mono"
+                  >Mobile Optimization</span
+                >
+                <span
+                  class="px-2 py-1 bg-orange-900/30 text-orange-200 border border-orange-800 text-xs rounded font-mono"
+                  >Tech Art</span
+                >
+                <span
+                  class="px-2 py-1 bg-blue-900/30 text-blue-200 border border-blue-800 text-xs rounded font-mono"
+                  >URP</span
+                >
+              </div>
 
               <div class="flex flex-wrap gap-3 mb-4 text-xs">
                 <a
@@ -329,27 +368,16 @@
 
               <div class="mb-6 pl-4 border-l-2 border-primary/50">
                 <p class="text-gray-400 text-sm leading-relaxed">
-                  <strong class="text-white">The Strategy:</strong> Performance
-                  profiling revealed CPU spikes from manual Garbage Collection
-                  and GPU bottlenecks from excessive draw calls. <br /><br />
-                  I implemented <strong>Static Mesh Combining</strong> to batch
-                  environment geometry, drastically reducing draw calls.
-                  Simultaneously, I refactored the memory management pipeline to
-                  remove aggressive manual GC triggers.
+                  <strong class="text-white">The Challenge:</strong> CPU spikes
+                  from manual Garbage Collection and GPU bottlenecks from
+                  excessive draw calls. <br /><br />
+                  <strong class="text-white">The Solution:</strong> Implemented
+                  <strong>Static Mesh Combining</strong> to batch geometry and
+                  migrated the pipeline to <strong>URP</strong> with custom
+                  shaders, increasing visual fidelity while reducing render
+                  cost.
                 </p>
               </div>
-
-              <ul class="list-disc list-inside text-gray-400 space-y-2">
-                <li>
-                  <strong>VFX Systems:</strong> Programmed performant C#
-                  particle systems for weapon impacts to minimize overdraw.
-                </li>
-                <li>
-                  <strong>Render Pipeline:</strong> Migrated project from
-                  Built-in to <strong>URP</strong> and designed custom Shader
-                  Graphs to fix shadow artifacts (acne) and reduce GPU cost.
-                </li>
-              </ul>
             </div>
           </div>
 
@@ -372,9 +400,24 @@
             <div>
               <h3 class="text-2xl font-heading text-highlight">Contortion</h3>
               <p class="text-primary text-sm font-semibold mb-1">
-                Gameplay Engineer (Unity C#)
+                System Designer & Engineer (Unity C#)
               </p>
               <p class="text-gray-500 text-xs italic mb-2">Academic Project</p>
+
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span
+                  class="px-2 py-1 bg-blue-900/30 text-blue-200 border border-blue-800 text-xs rounded font-mono"
+                  >System Design</span
+                >
+                <span
+                  class="px-2 py-1 bg-purple-900/30 text-purple-200 border border-purple-800 text-xs rounded font-mono"
+                  >2D Physics</span
+                >
+                <span
+                  class="px-2 py-1 bg-gray-700/30 text-gray-300 border border-gray-600 text-xs rounded font-mono"
+                  >Analytics</span
+                >
+              </div>
 
               <div class="flex flex-wrap gap-3 mb-4 text-xs">
                 <a
@@ -393,17 +436,6 @@
                 </a>
               </div>
 
-              <div class="flex flex-wrap gap-2 mb-4">
-                <span
-                  class="px-2 py-1 bg-muted text-xs border border-gray-700 text-gray-400 rounded font-mono"
-                  >2D Physics</span
-                >
-                <span
-                  class="px-2 py-1 bg-muted text-xs border border-gray-700 text-gray-400 rounded font-mono"
-                  >Firebase</span
-                >
-              </div>
-
               <ul class="list-disc list-inside text-gray-400 space-y-2">
                 <li>
                   <strong>Physics Systems:</strong> Engineered a "Gravity
@@ -411,14 +443,13 @@
                   complex collision edge-cases.
                 </li>
                 <li>
-                  <strong>Analytics Integration:</strong> Integrated Firebase to
-                  generate heatmaps of player deaths, driving data-informed
-                  level design iterations.
+                  <strong>Data-Driven Design:</strong> Integrated Firebase to
+                  generate heatmaps of player deaths, allowing for data-informed
+                  level rebalancing.
                 </li>
                 <li>
-                  <strong>Crushing Logic:</strong> Implemented a velocity-based
-                  detection system using runtime physics sensors to handle
-                  "Crushing" states between dynamic objects.
+                  <strong>Crushing Logic:</strong> Implemented velocity-based
+                  sensors to handle "Crushing" states between dynamic objects.
                 </li>
               </ul>
             </div>
@@ -436,51 +467,47 @@
           class="text-3xl font-heading font-semibold text-white mb-12 text-center"
           data-aos="fade-up"
         >
-          Engineering &amp; Architecture
+          Technical &amp; Design Skills
         </h2>
 
         <div class="grid lg:grid-cols-5 gap-12">
           <div class="lg:col-span-2 space-y-6" data-aos="fade-right">
             <div class="bg-secondary p-6 rounded-lg border border-muted">
               <h3 class="text-lg font-heading text-primary mb-4">
-                <i class="fas fa-code mr-2"></i> Languages
+                <i class="fas fa-code mr-2"></i> Design &amp; Scripting
               </h3>
               <div class="flex flex-wrap gap-2">
                 <span
                   class="px-3 py-1 bg-muted rounded text-xs font-mono text-gray-300 border border-gray-700"
-                  >C++</span
+                  >Blueprints (Visual Scripting)</span
                 >
                 <span
                   class="px-3 py-1 bg-muted rounded text-xs font-mono text-gray-300 border border-gray-700"
-                  >C#</span
+                  >C++ / C#</span
                 >
                 <span
                   class="px-3 py-1 bg-muted rounded text-xs font-mono text-gray-300 border border-gray-700"
-                  >Blueprints</span
+                  >Python (Tools)</span
                 >
                 <span
                   class="px-3 py-1 bg-muted rounded text-xs font-mono text-gray-300 border border-gray-700"
-                  >Python</span
+                  >Shader Graph</span
+                >
+                <span
+                  class="px-3 py-1 bg-muted rounded text-xs font-mono text-gray-300 border border-gray-700"
+                  >UMG / UI</span
                 >
               </div>
             </div>
 
             <div class="bg-secondary p-6 rounded-lg border border-muted">
               <h3 class="text-lg font-heading text-primary mb-4">
-                <i class="fas fa-cogs mr-2"></i> Engines &amp; Tools
+                <i class="fas fa-cogs mr-2"></i> Pipeline &amp; Optimization
               </h3>
               <div class="flex flex-wrap gap-2">
                 <span
                   class="px-3 py-1 bg-muted rounded text-xs font-mono text-gray-300 border border-gray-700"
-                  >Unreal Engine 5</span
-                >
-                <span
-                  class="px-3 py-1 bg-muted rounded text-xs font-mono text-gray-300 border border-gray-700"
-                  >Unity (URP/DOTS)</span
-                >
-                <span
-                  class="px-3 py-1 bg-muted rounded text-xs font-mono text-gray-300 border border-gray-700"
-                  >Perforce / Git</span
+                  >Unreal Insights</span
                 >
                 <span
                   class="px-3 py-1 bg-muted rounded text-xs font-mono text-gray-300 border border-gray-700"
@@ -488,7 +515,15 @@
                 >
                 <span
                   class="px-3 py-1 bg-muted rounded text-xs font-mono text-gray-300 border border-gray-700"
-                  >SmartSVN</span
+                  >Level Streaming</span
+                >
+                <span
+                  class="px-3 py-1 bg-muted rounded text-xs font-mono text-gray-300 border border-gray-700"
+                  >Perforce / Git</span
+                >
+                <span
+                  class="px-3 py-1 bg-muted rounded text-xs font-mono text-gray-300 border border-gray-700"
+                  >Draw Call Optimization</span
                 >
               </div>
             </div>
@@ -507,7 +542,7 @@
                   class="p-4 border-b border-muted bg-black/40 flex justify-between items-center"
                 >
                   <h3 class="text-lg font-heading text-white">
-                    Player Death & Physics System (Unity C#)
+                    Physics Sensor System (Unity C#)
                   </h3>
                   <div class="flex items-center gap-2">
                     <span class="text-xs text-primary font-bold uppercase"
@@ -520,10 +555,11 @@
                 </div>
                 <div class="p-6">
                   <p class="text-gray-400 mb-4 text-sm">
-                    Scripted for <strong>Contortion</strong>. A velocity-based
-                    detection system using runtime physics sensors to handle
-                    "Crushing" states between dynamic objects, driving the
-                    cinematic death sequence.
+                    <strong>System Design:</strong> A modular physics detection
+                    system for <strong>Contortion</strong>. Uses runtime sensors
+                    to handle complex "Crushing" states, allowing level
+                    designers to rotate geometry without breaking collision
+                    logic.
                   </p>
                   <div
                     class="bg-[#1e1e1e] p-4 rounded text-xs font-mono text-gray-300 border-l-4 border-primary group-hover:bg-[#252525] transition-colors"
@@ -553,7 +589,7 @@
                 class="p-4 border-b border-muted bg-black/40 flex justify-between items-center"
               >
                 <h3 class="text-lg font-heading text-white">
-                  State Persistence (Unreal C++)
+                  State Serialization (Unreal C++)
                 </h3>
                 <i class="fas fa-save text-xl text-gray-600"></i>
               </div>
